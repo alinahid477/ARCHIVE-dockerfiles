@@ -8,5 +8,5 @@ FROM node:latest
 RUN npm config set registry https://registry.npmjs.com/
 # RUN npm cache clear --force
 # RUN npm config set unsafe-perm true
-# RUN npm install
+RUN npm install
 RUN npm install react-scripts@3.4.1 -g
